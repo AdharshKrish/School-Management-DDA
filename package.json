@@ -1,0 +1,15 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "description": "This is a react template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kadhir99/React-template.git"
+  },
+  "author": "Kadhirvel",
+  "license": "ISC"
+}
