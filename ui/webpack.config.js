@@ -10,7 +10,16 @@ module.exports = {
     devServer: {
         port: 3000,
         open: true,
-        hot: true
+        hot: true,
+        historyApiFallback: true,
+        proxy: {
+            '/api': {
+                target: 'http://localhost:8080',
+                secure: false,
+                changeOrigin: true,
+                pathRewrite: {'^/api': ''}
+            }
+        }
     },
     module: {
         rules: [
