@@ -62,14 +62,14 @@ const Home = () => {
             <Card style={{margin: '1rem'}}>
                 <CardContent style={{padding: '0 1rem'}}>
                     <h4>General</h4>
-                    <h2 style={{margin: 0 }}>EC3 Examination dates announced</h2>
+                    <h2 style={{margin: 0 }}>EC2 Examination results published</h2>
                     <h4 style={{fontWeight: 'normal' }}>description</h4>
                 </CardContent>
             </Card>
             <Card style={{margin: '1rem'}}>
             <CardContent style={{padding: '0 1rem'}}>
                     <h4>Database Design and Analysis</h4>
-                    <h2 style={{margin: 0 }}>Project submission date is 31st October</h2>
+                    <h2 style={{margin: 0 }}>Project submission date is 4th November</h2>
                     <h4 style={{fontWeight: 'normal' }}>description</h4>
             </CardContent>
             </Card>
